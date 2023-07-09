@@ -2,9 +2,9 @@ name: "CodeQL Analysis"
 
 on:
   push:
-    branches: [main]
+    branches: [main, team-mina-bastien-florian]
   pull_request:
-    branches: [main]
+    branches: [main, team-mina-bastien-florian]
 
 jobs:
   analyze:
